@@ -67,9 +67,10 @@ h1,h2,h3,h4,p{
 }
 
 .noticia{
-    margin-top: 15px;
-    margin-left: 15px;
-    box-shadow: rgba(0, 0, 0, 0.151) 0px 0px 3px 0px;
+    margin-top: 10px;
+    margin-left: 10px;
+  
+    border-bottom: 5px rgb(104, 101, 101) solid;
     border-radius: 6px;
     width: 400px;
     padding: 20px;
