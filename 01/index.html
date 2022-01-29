@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,12 +10,12 @@
 <body>
     
     <header>
-        <img id="logo" src="newspaper-logo-png-5-Transparent-Images.png" alt="" srcset="">
+        <img id="logo" style="cursor: pointer;" onclick="reload()"  src="newspaper-logo-png-5-Transparent-Images.png" alt="" srcset="">
         <nav>
-            <li><a href="#">Inicio</a></li>
+            <li><a href="index.html">Inicio</a></li>
             <li><a href="#">Fotos</a></li>
             <li><a href="#">Serviçõs</a></li>
-            <li><a href="#">Contato</a></li>
+            <li><a href="contato.html">Contato</a></li>
         </nav>
     </header>
 
@@ -60,7 +60,12 @@
                     
         </section>
     </main>
+<script>
 
+    function reload(){
+        document.location.reload(true);
+    }
+</script>
 
 </body>
 </html>
